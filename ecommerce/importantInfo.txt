@@ -1,0 +1,2 @@
+python manage.py runserver - команда за стартиране на сървъра на адрес:
+http://localhost:8000/
