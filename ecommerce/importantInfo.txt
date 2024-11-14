@@ -11,3 +11,12 @@ C:\Users\User\Desktop\dev\ecommerce>
 python manage.py makemigrations
 
 python manage.py migrate
+
+====
+
+
+to activate the venv:
+
+от директория dev
+dev>venv\Scripts\activate
+
