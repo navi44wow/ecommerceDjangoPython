@@ -151,7 +151,7 @@
             url: '{% url "cart-delete" %}',
             data: {
 
-                product_id: (this).data('index'),
+                product_id: $(this).data('index'),  // Fix here
                 csrfmiddlewaretoken: "{{csrf_token}}",
                 action: 'post'
 
@@ -161,9 +161,11 @@
 
                 //console.log(json)
 
-                //document.getElementById("cart-qty").textContent = json.qty
+                location.reload()
 
-            //    document.getElementById("cart-qty").textContent = json.qty
+                document.getElementById("cart-qty").textContent = json.qty
+
+                document.getElementById("total").textContent = json.total
 
 
             },
