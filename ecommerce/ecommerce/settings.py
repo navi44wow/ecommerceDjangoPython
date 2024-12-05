@@ -42,6 +42,8 @@ INSTALLED_APPS = [
 
     'cart',  #Django app /another app/
 
+    'account' , #Django app
+
     'mathfilters', #Django app
 ]
 
